@@ -1,202 +1,99 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
+    <title>Abdul-Wadood Al-Ali</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Your Name</a>
-        </div>
-    </nav>
-
-    <!-- Profile Section -->
-    <section class="profile-section py-5" data-aos="fade-up">
-        <div class="container text-center">
-            <img src="path/to/your/profile_picture.jpg" alt="Your Name" class="img-fluid rounded-circle profile-img">
-            <h1 class="mt-4">Your Name</h1>
-            <p>Welcome to my personal portfolio!</p>
+    <!-- Hero Section -->
+    <header class="bg-dark text-white text-center py-5" style="background: linear-gradient(135deg,#2d4a8a,#6b3b9b);">
+        <div class="container" data-aos="zoom-in">
+            <img src="images/profile.jpg" alt="Abdul-Wadood Al-Ali" class="img-fluid rounded-circle profile-img mb-3">
+            <h1 class="display-4">Abdul-Wadood Al-Ali</h1>
+            <p class="lead">Embedded Systems Lead &amp; Researcher</p>
             <div class="social-icons">
-                <a href="https://github.com/your-username" target="_blank"><i class="fab fa-github fa-2x m-2"></i></a>
-                <a href="https://twitter.com/your-username" target="_blank"><i class="fab fa-twitter fa-2x m-2"></i></a>
-                <a href="https://linkedin.com/in/your-username" target="_blank"><i class="fab fa-linkedin fa-2x m-2"></i></a>
+                <a href="https://github.com/abdulwadoodalali" target="_blank"><i class="fab fa-github fa-2x mx-2"></i></a>
+                <a href="https://linkedin.com/in/abdulwadoodalali" target="_blank"><i class="fab fa-linkedin fa-2x mx-2"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <p class="text-center">PhD in Electrical Engineering from the University of Calgary with expertise in embedded systems design and bio-impedance measurement.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Education</h2>
+            <ul class="list-unstyled">
+                <li><strong>PhD Electrical Engineering</strong> - University of Calgary, 2022</li>
+                <li><strong>MSc Electrical Engineering</strong> - University of Calgary, 2018</li>
+                <li><strong>BSc Electrical Engineering</strong> - University of Sharjah, 2016</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Professional Experience</h2>
+            <ul class="list-unstyled">
+                <li><strong>Embedded Systems Lead</strong> - FluidAI Medical (2023&nbsp;&ndash;&nbsp;Present)</li>
+                <li><strong>Embedded Engineer</strong> - FluidAI Medical (2022&nbsp;&ndash;&nbsp;2023)</li>
+                <li><strong>Research &amp; Teaching Assistant</strong> - University of Calgary (2016&nbsp;&ndash;&nbsp;2022)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5 bg-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Selected Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Impedance Analyzer IC</h5>
+                            <p class="card-text">Designed a high-speed impedance analyzer integrated circuit with optimized noise performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Origin&trade; Risk Monitor</h5>
+                            <p class="card-text">Lead the embedded team delivering OTA updates and manufacturing automation for FluidAI's flagship product.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Machine Learning Model</h5>
+                            <p class="card-text">Developed CNN‑LSTM networks for impedance spectroscopy circuit modeling and optimization.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    
-
-<!-- Education Section -->
-<section class="education-section py-5" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center mb-5">Education</h2>
-        <p>PhD in Electrical Engineering (GPA 4.0)	2022
-University of Calgary, Calgary, AB
-Thesis: Rapid Magnitude-only Galvanostatic Bio-Impedance Measuring System and Its Application
-Research Topics: Impedance measurement, ADCs, DACs, Op Amps, and switches, data modeling and analysis, ultra-low frequency measurements, integrated circuits design and fabrication 
-MSc in Electrical Engineering (GPA 3.75)	2018
-University of Calgary, Calgary, AB
-Thesis: Design and Implementation of a Magnitude Only Bio-Impedance Analyzer
-BSc in Electrical Engineering (GPA 3.79)	 2016
-University of Sharjah, Sharjah, UAE
-Professional Experience
-Embedded Systems Lead 	2023 - Present
-FluidAI Medical, Kitchener, ON
-Leading the embedded team in crafting Origin™, FluidAI's flagship product, a non-invasive post-surgical Risk monitor tailored for abdominal surgery patients, propelling FluidAI's market entry.
-Supervising PCB assembly and optimized parts procurement, resulting in streamlined manufacturing.
-Directing the hiring and mentoring of team members and training of co-op trainees. 
-Embedded Engineer 	2022 - 2023
-FluidAI Medical, Kitchener, ON
-Spearheaded the development of crucial features, such as Over-the-Air firmware updates and advanced filesystems, significantly enhancing Origin's functionality and performance.
-Implemented automation of various processes, such as bed of nails, and CI/CD pipelines for HIL testing.
-Contributed to multiple releases, performing and leading Verification and Validation (V&V) processes.
-Collaborated with the R&D team, prototyping and testing innovative sensors.
-Research and Teaching Experience
-Research and Teaching Assistant                                                                                                                     	  2016 – 2022
-Electrical and Software Engineering Department, University of Calgary, Calgary AB
-Sessional Instructor 	2022
-Electrical and Software Engineering Department, University of Calgary, Calgary AB
-Projects
-Current/Charge Pump Integrated Circuit Design in 65nm:  	2019 - 2022
-Objective: Achieve a successful tape-out and testing of a groundbreaking Howland Current/Charge pump IC.
-Achievements:
-Engineered a high-speed, high-gain telescopic op-amp achieving 364.6 MHz BW , and 97dB gain
-Delved deep into circuit metrics by carrying out linearity, stability, and noise analysis
-Spearheaded the entire IC design using Cadence Virtuoso, along with the IC wire bonding and evaluation and validation of the IC by doing both time and frequency domain tests in the IC lab
-Fast Low-Frequency Impedance Measurement Techniques: 	 2022
-Objective: Dramatically cut down the intricacy and duration of sub-Hz impedance evaluations.
-Achievements:
-Probed the application potential of Chaotic and Rudin-Shapiro polynomial signals.
-Formulated a comprehensive solution, covering hardware, firmware, and backend signal processing, slashing impedance measurement time significantly.
-Optimum Impedance Spectroscopy Circuit Model Identification via Deep Learning: 	 2021-2022
-Objective: Harness the power of a CNN-LSTM model to pinpoint the ideal circuit for modeling impedance data.
-Achievements:
-Delved into diverse machine learning algorithms for circuit model categorization.
-Crafted, honed, and tested models on TensorFlow with various datasets.
-Developed an optimization fitting algorithm capable of finding the optimal model parameters 
-Time Domain Jitter (phase noise) Estimation: 	 2018 - 2020
-Objective: Revolutionize the method of jitter quantification and correlation with phase noise.
-Achievements:
-Formulated and validated an innovative technique for time domain jitter estimation.
-Undertook rigorous theoretical verification complemented by hands-on experimental testing.
-High Speed 2.4 GHz Band-pass Filter Design in 180nm: 					    	       2016 - 2017 
-Objective: Validate a two-transistor differential filter design topology.
-Achievements:
-Researched the differential filter schematic design with thorough analysis.
-Utilized Cadence Virtuoso for schematic design and simulation.
-Conducted extensive S-parameter, stability, noise, and linearity simulations.
-
-Scholarships, Grants and Awards		
-Alberta Graduate Excellence Scholarship (AGES) (2019, 2021)
-Research Productivity Award (2017, 2018, 2019, 2020, 2021)
-Graduate Student Association travel award (2017)
-Department of Electrical and Computer Engineering travel award (2017)
-1st place winner in The IEEE UAE Student Day Competition (2015)
-Certification
-Introduction to Self-Driving Cars, University of Toronto (Coursera) 
-Foundations of Project Management Foundations of Project Management, Google (Coursera) 
-The Graduate Student Certificate in University Teaching and Learning, University of Calgary
-Publons Verified Peer Reviewer
-Patents 
-Al-Ali, A. A., Maundy, B., & Elwakil, A. (2023). Bio-impedance analyzer. US Patent 11,559,219.
-Books 
-Al-Ali, A. A., Maundy, B. J., & Elwakil, A. S. (2019). Design and Implementation of Portable Impedance Analyzers. Springer, Cham. 
-Selected Publications 
-Al-Ali, A., Elwakil, A. S., Maundy, B., Majzoub, S., & Allagui, A. (in press). Electrical impedance spectroscopy using a wide-band signal based on the Rudin-Shapiro polynomials. Journal of The Electrochemical Society.
-Al-Ali, A., Elwakil, A., Maundy, B., Majzoub, S. (2022). Fast Sub-Hz potentiostatic/galvanostatic bio-impedance measurements using chaotic oscillators. Biomedical Microdevices, 24(4), 39.
-Al-Ali, A., Maundy, B., Allagui, A., Elwakil, A. (2022). Optimum impedance spectroscopy circuit model identification using deep learning algorithms. Journal of Electroanalytical Chemistry, 924, 116854.
-Al-Ali, A. A., Elwakil, A. S., Maundy, B. J., Allagui, A., Elamien, M. B. (2021). Estimating phase error using a Hilbert transform-based time-domain technique. International Journal of Circuit Theory and Applications.
-Al-Ali, A., Elwakil, A., Maundy, B., Westwick, D. (2020). A generic impedance modeling technique. AEU-International Journal of Electronics and Communications, 123, 153301.
-Maundy, B., Elwakil, A., Al-Ali, A., Belostotski, L. (2017). Synthesis and analysis of fully differential filters using two port networks. In IEEE 60th Int. Midwest Symposium on Circuits and Systems (MWSCAS) (pp. 1105-1108).
-References 
-References are available upon request</p>
-    </div>
-</section>
-
-
-<!-- Experience Section -->
-<section class="experience-section py-5" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center mb-5">Professional Experience</h2>
-        
-    <div class="experience-entry mb-4">
-        <h4>Embedded Systems Lead 	2023 - Present</h4>
-        <p class="text-muted">FluidAI Medical, Kitchener, ON</p>
-        <h5>Leading the embedded team in crafting Origin™, FluidAI's flagship product, a non-invasive post-surgical Risk monitor tailored for abdominal surgery patients, propelling FluidAI's market entry.</h5>
-        <p>Supervising PCB assembly and optimized parts procurement, resulting in streamlined manufacturing.<br>Directing the hiring and mentoring of team members and training of co-op trainees. <br>Embedded Engineer 	2022 - 2023<br>FluidAI Medical, Kitchener, ON<br>Spearheaded the development of crucial features, such as Over-the-Air firmware updates and advanced filesystems, significantly enhancing Origin's functionality and performance.<br>Implemented automation of various processes, such as bed of nails, and CI/CD pipelines for HIL testing.<br>Contributed to multiple releases, performing and leading Verification and Validation (V&V) processes.<br>Collaborated with the R&D team, prototyping and testing innovative sensors.</p>
-    </div>
-    
-    </div>
-</section>
-
-<!-- Skills and Qualifications Section -->
-<section class="skills-section py-5" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center mb-5">Skills and Qualifications</h2>
-        <p>Circuit design and Simulation: PCB Design (Altium, Eagle, Kicad), OrCAD Cadence (Spice/Spectre and Virtuoso), LTSpice, PSpice, ESD protection circuits, High Frequency design, IC design and fabrication, S-parameter, stability, noise, and linearity (IIP3, IP1dB, and THD) simulations.</p>
-    </div>
-</section>
-
-
-<!-- Projects Section -->
-<section class="projects-section py-5 bg-light" data-aos="fade-up">
-    <div class="container">
-        <h2 class="text-center mb-5">Projects</h2>
-        <div class="row">
-            
-    <div class="col-md-4 mb-4">
-        <div class="card project-card">
-            <img src="path/to/default_project_image.jpg" class="card-img-top" alt="Current/Charge Pump Integrated Circuit Design in 65nm:  	2019 - 2022">
-            <div class="card-body">
-                <h5 class="card-title">Current/Charge Pump Integrated Circuit Design in 65nm:  	2019 - 2022</h5>
-                <p class="card-text">Achievements:<br>Engineered a high-speed, high-gain telescopic op-amp achieving 364.6 MHz BW , and 97dB gain<br>Delved deep into circuit metrics by carrying out linearity, stability, and noise analysis<br>Spearheaded the entire IC design using Cadence Virtuoso, along with the IC wire bonding and evaluation and validation of the IC by doing both time and frequency domain tests in the IC lab<br>Fast Low-Frequency Impedance Measurement Techniques: 	 2022<br>Objective: Dramatically cut down the intricacy and duration of sub-Hz impedance evaluations.<br>Achievements:<br>Probed the application potential of Chaotic and Rudin-Shapiro polynomial signals.<br>Formulated a comprehensive solution, covering hardware, firmware, and backend signal processing, slashing impedance measurement time significantly.<br>Optimum Impedance Spectroscopy Circuit Model Identification via Deep Learning: 	 2021-2022<br>Objective: Harness the power of a CNN-LSTM model to pinpoint the ideal circuit for modeling impedance data.<br>Achievements:<br>Delved into diverse machine learning algorithms for circuit model categorization.<br>Crafted, honed, and tested models on TensorFlow with various datasets.<br>Developed an optimization fitting algorithm capable of finding the optimal model parameters <br>Time Domain Jitter (phase noise) Estimation: 	 2018 - 2020<br>Objective: Revolutionize the method of jitter quantification and correlation with phase noise.<br>Achievements:<br>Formulated and validated an innovative technique for time domain jitter estimation.<br>Undertook rigorous theoretical verification complemented by hands-on experimental testing.<br>High Speed 2.4 GHz Band-pass Filter Design in 180nm: 					    	       2016 - 2017 <br>Objective: Validate a two-transistor differential filter design topology.<br>Achievements:<br>Researched the differential filter schematic design with thorough analysis.<br>Utilized Cadence Virtuoso for schematic design and simulation.<br>Conducted extensive S-parameter, stability, noise, and linearity simulations.</p>
-                <a href="#" class="btn btn-outline-dark">View Project</a>
-            </div>
-        </div>
-    </div>
-    
-    <div class="col-md-4 mb-4">
-        <div class="card project-card">
-            <img src="path/to/default_project_image.jpg" class="card-img-top" alt="Scholarships, Grants and Awards		">
-            <div class="card-body">
-                <h5 class="card-title">Scholarships, Grants and Awards		</h5>
-                <p class="card-text">Research Productivity Award (2017, 2018, 2019, 2020, 2021)<br>Graduate Student Association travel award (2017)<br>Department of Electrical and Computer Engineering travel award (2017)<br>1st place winner in The IEEE UAE Student Day Competition (2015)<br>Certification<br>Introduction to Self-Driving Cars, University of Toronto (Coursera) <br>Foundations of Project Management Foundations of Project Management, Google (Coursera) <br>The Graduate Student Certificate in University Teaching and Learning, University of Calgary<br>Publons Verified Peer Reviewer<br>Patents <br>Al-Ali, A. A., Maundy, B., & Elwakil, A. (2023). Bio-impedance analyzer. US Patent 11,559,219.<br>Books <br>Al-Ali, A. A., Maundy, B. J., & Elwakil, A. S. (2019). Design and Implementation of Portable Impedance Analyzers. Springer, Cham. <br>Selected</p>
-                <a href="#" class="btn btn-outline-dark">View Project</a>
-            </div>
-        </div>
-    </div>
-    
-        </div>
-    </div>
-</section>
-
-        <div class="container">
-            <h2 class="text-center mb-5">Projects</h2>
-            <div class="row">
-                <!-- Project 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card project-card">
-                        <img src="path/to/project1_image.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Brief description about Project 1.</p>
-                            <a href="#" class="btn btn-outline-dark">View Project</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add more projects in a similar fashion -->
-            </div>
+    <!-- Contact Section -->
+    <section class="py-5" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="mb-4">Get in Touch</h2>
+            <p>Feel free to reach out via <a href="mailto:abdulwadood@example.com">email</a>.</p>
         </div>
     </section>
 
@@ -206,5 +103,4 @@ References are available upon request</p>
         AOS.init();
     </script>
 </body>
-
 </html>

@@ -1,11 +1,17 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #f8f9fa;
     overflow-x: hidden;
 }
 
+header {
+    color: #fff;
+}
+
 .profile-img {
-    width: 150px;
-    border: 5px solid #333;
+    width: 160px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     transition: transform 0.3s;
 }
 
@@ -14,12 +20,12 @@ body {
 }
 
 .social-icons a {
-    color: #333;
+    color: #fff;
     transition: color 0.3s;
 }
 
 .social-icons a:hover {
-    color: #555;
+    color: #dfe2e6;
 }
 
 .project-card {
@@ -27,10 +33,6 @@ body {
 }
 
 .project-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-}
-
-.btn-outline-dark {
-    border-width: 2px;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
